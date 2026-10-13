@@ -46,3 +46,11 @@ print(txt)
 #escape characters
 my= "Kenya is a \"good\" country"
 print(my)
+
+#BOOLEANS
+print(200> 20)
+print(200 < 20)
+print(30 == 30)
+#printing if bool is true or false
+print(bool("Kamau"))
+print(bool(25))
