@@ -7,3 +7,11 @@ print(f"My name is {name} and am {age} years old. i scored {score}")
 if 5 > 2:
     print("Five is greater than two!");
 #Comments is commented using #
+
+#Variables
+x=5
+y="Hello"
+print(x)
+#variable type
+print(type(y))
+#variables are case sensitive
