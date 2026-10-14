@@ -54,3 +54,17 @@ print(30 == 30)
 #printing if bool is true or false
 print(bool("Kamau"))
 print(bool(25))
+
+#Lists
+list = ["apple", "red", "goat", "pupil", "mine"]
+print(len(list))
+#accessing list by item
+print(list[3])
+#range of indexes
+print(list[1:3])
+#changing items
+list[1]="soda"
+print(list)
+#changing range of items
+list[0:2] = ["kamaa", "mbwa"]
+print(list)
