@@ -68,3 +68,7 @@ print(list)
 #changing range of items
 list[0:2] = ["kamaa", "mbwa"]
 print(list)
+
+def greet(name):
+    return f"Hello, {name}! Welcome to Python."
+print(greet("Developer"))
