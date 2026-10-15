@@ -72,3 +72,27 @@ print(list)
 def greet(name):
     return f"Hello, {name}! Welcome to Python."
 print(greet("Developer"))
+
+#TUPLES
+this = ("apple", "orange", "banana")
+print(this)
+#Not amust they have parenthesis
+this1= "apples", "oranges", "bananas"
+print(len(this1))
+#Acess tuples
+print(this[0])
+
+#update tuples
+
+#g = ("kuku", "man", "kemu")
+#h = list(g)
+#h[1] = "cup"
+#g = tuple(h)
+#print(g)
+
+#adding
+i = ("let", "kuja", "not")
+j = list(i)
+j.append = "orange"
+i = tuple(j)
+print(i)
